@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(233, 159, 192);
+}
+
+.logo{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+
+.logo-img{
+    background-repeat: no-repeat;
+    justify-items: center;
+    text-align: center;
+    height: 50px;
+    width: 60px;
+    margin-right: 800px;
+    margin-left: 600px;
+}
+
+.game-block{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 400px;
+    width: 350px;
+    border-radius: 32px;
+    border-color: #b6a6a6;
+    background-color: #403d3d;
+    color: white;
+}
+
+.block_1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.game-score{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(180, 164, 164);
+    border-radius: 25px;
+
+}
+
+.game-score-1, .game-score-2{
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    color:black;
+}
+
+.game-performance{
+    margin: 20px 0px 0px 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#nextGame{
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    border-style:  4px solid black;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(237, 7, 152);
+    color: white;
+    border-radius: 4px;
+    box-shadow: 3px 3px 1px 2px rgb(237 7 152);
+    
+    margin-top: 20px;
+}
